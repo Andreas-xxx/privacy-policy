@@ -83,32 +83,44 @@
   <div class="tagline">Träningspartnern för precisionsskytten</div>
 
   <h1>Integritetspolicy</h1>
-  <div class="updated">Senast uppdaterad: maj 2026</div>
+  <div class="updated">Senast uppdaterad: 2026-06-17</div>
 
   <h2>1. Om appen och personuppgiftsansvar</h2>
   <p>Scottify är en digital träningslogg och analysapp för sportskytte. Vi respekterar din integritet och är transparenta med hur vi hanterar dina uppgifter.</p>
   <p>Personuppgiftsansvarig: Andreas Andersson (<a href="mailto:andreas_typhoon@hotmail.com">andreas_typhoon@hotmail.com</a>)</p>
 
   <h2>2. Vilka uppgifter samlar vi in?</h2>
-  <p><strong>Obligatoriska uppgifter:</strong></p>
+  <p><strong>Kontouppgifter:</strong></p>
   <ul>
-    <li>Profil: namn, e-post, födelsedatum, höger/vänsterhänt</li>
+    <li>Profil: namn, e-post, ev. telefonnummer, födelsedatum, höger/vänsterhänt</li>
+    <li>Identifierare: användar-ID och prenumerations-ID</li>
+  </ul>
+  <p><strong>Innehåll du skapar i appen:</strong></p>
+  <ul>
     <li>Aktiviteter: datum, plats, väder, anteckningar</li>
     <li>Serier: serienummer, resultat, position, avstånd</li>
     <li>Skott: träffar, position på tavlan, samlingsdata</li>
     <li>Vapen: tillverkare, modell, kaliber, licensstatus</li>
-  </ul>
-  <p><strong>Frivilliga uppgifter:</strong></p>
-  <ul>
-    <li>Bilder: vapenfoton, licensdokument</li>
+    <li>Foton: träffbilder, vapen- och licensbilder (tas med kameran eller väljs från biblioteket)</li>
+    <li>Röstinspelningar: egna röstkommandon till skjutledaren</li>
     <li>Klubbinformation: klubbnamn (om relevant)</li>
+  </ul>
+  <p><strong>Hälsa och rörelse (valfria funktioner):</strong></p>
+  <ul>
+    <li>Puls: pulsdata från Apple Watch (beta-funktion)</li>
+    <li>Rörelse: rörelse-/accelerometerdata för rekyl och hållning</li>
+  </ul>
+  <p><strong>Köp och teknisk data:</strong></p>
+  <ul>
+    <li>Köp: prenumerationsstatus och köphistorik (via RevenueCat och Apple)</li>
+    <li>Användningsdata: app-öppningar och skärmvisningar (pseudonymt, via Firebase Analytics — ej kopplat till ditt konto)</li>
+    <li>Kraschdata: fel- och kraschrapporter (via Firebase Crashlytics)</li>
   </ul>
   <p><strong>Vi samlar INTE in:</strong></p>
   <ul>
     <li>GPS- eller platsdata</li>
     <li>Personnummer</li>
-    <li>Betalningsinformation</li>
-    <li>Sökbeteenden eller beteendedata</li>
+    <li>Betalkortsuppgifter — betalningen hanteras av Apple, vi ser aldrig ditt kort</li>
   </ul>
 
   <h2>3. Varför samlar vi in uppgifterna?</h2>
@@ -121,13 +133,20 @@
     <li>Säkerställa att du bara ser dina egna uppgifter</li>
   </ul>
 
-  <h2>4. Var lagras dina uppgifter?</h2>
-  <p>Dina uppgifter lagras säkert och krypterat hos Supabase i Stockholm — EU-baserad infrastruktur som uppfyller GDPR. Vi delar inte dina uppgifter med tredje part utan ditt samtycke.</p>
+  <h2>4. Var lagras dina uppgifter och vilka delar vi dem med?</h2>
+  <p>Dina uppgifter lagras säkert och krypterat hos Supabase inom EU — infrastruktur som uppfyller GDPR. Vi säljer aldrig dina uppgifter och använder dem inte för reklam.</p>
+  <p>För att driva appen anlitar vi följande leverantörer (personuppgiftsbiträden):</p>
+  <ul>
+    <li>Supabase — databas, fillagring och inloggning (EU)</li>
+    <li>Google — "Logga in med Google" samt Firebase Crashlytics (kraschrapporter) och Firebase Analytics (pseudonym användningsstatistik)</li>
+    <li>RevenueCat och Apple — hantering av prenumerationer och köp</li>
+  </ul>
+  <p>Känsliga uppgifter, framför allt pulsdata, behandlas endast med ditt samtycke. Du kan när som helst sluta använda funktionen och radera datan.</p>
 
   <h2>5. Dina rättigheter</h2>
   <p>Du har rätt att:</p>
   <ul>
-    <li>Exportera dina profiluppgifter</li>
+    <li>Exportera dina uppgifter och bilder</li>
     <li>Radera ditt konto och all tillhörande data</li>
     <li>Uppdatera din information</li>
     <li>Begära tillgång till dina personuppgifter</li>
@@ -145,7 +164,7 @@
   <p>Vi kan inte garantera 100 % säkerhet, men vi gör vårt yttersta.</p>
 
   <h2>7. Lagringstid</h2>
-  <p>Vi behåller dina uppgifter så länge som behövs för att tillhandahålla tjänsten. Du kan när som helst radera ditt konto och all tillhörande data. Lagkrav kan innebära att viss data behöver behållas längre.</p>
+  <p>Vi behåller dina uppgifter så länge ditt konto är aktivt. Efter att en eventuell testperiod tagit slut behålls din data låst bakom prenumeration så att du kan återuppta den. Om kontot är inaktivt i 6 månader raderas din data automatiskt. Du kan när som helst exportera eller radera din data själv. Lagkrav kan innebära att viss data behöver behållas längre.</p>
 
   <h2>8. Barn</h2>
   <p>Scottify är inte avsedd för personer under 13 år. Vi samlar inte medvetet in uppgifter från barn. Om vi upptäcker sådana uppgifter raderas de omedelbart.</p>
