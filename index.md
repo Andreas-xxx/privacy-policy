@@ -1,96 +1,175 @@
-# Privacy Policy
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scottify – Integritetspolicy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0e1520;
+      color: #e2e8f0;
+      min-height: 100vh;
+      padding: 48px 16px 80px;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .logo {
+      font-size: 26px;
+      font-weight: 800;
+      color: #f8fafc;
+      margin-bottom: 4px;
+    }
+    .tagline {
+      font-size: 14px;
+      color: #64748b;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #f8fafc;
+      margin-bottom: 4px;
+    }
+    .updated {
+      font-size: 13px;
+      color: #475569;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 13px;
+      font-weight: 700;
+      color: #38bdf8;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin: 36px 0 12px;
+    }
+    p {
+      font-size: 15px;
+      color: #cbd5e1;
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+    ul {
+      margin: 8px 0 12px 20px;
+    }
+    ul li {
+      font-size: 15px;
+      color: #cbd5e1;
+      line-height: 1.7;
+      margin-bottom: 4px;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid #1e293b;
+      margin: 40px 0 0;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #475569;
+    }
+    a { color: #38bdf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+<div class="container">
 
-Senast uppdaterad: Maj 2026
+  <div class="logo">Scottify</div>
+  <div class="tagline">Träningspartnern för precisionsskytten</div>
 
-## 1. Introduction
+  <h1>Integritetspolicy</h1>
+  <div class="updated">Senast uppdaterad: maj 2026</div>
 
-Tavla is a digital training log and analysis app for sport shooting. We respect your privacy and are transparent about how we handle your data.
+  <h2>1. Om appen och personuppgiftsansvar</h2>
+  <p>Scottify är en digital träningslogg och analysapp för sportskytte. Vi respekterar din integritet och är transparenta med hur vi hanterar dina uppgifter.</p>
+  <p>Personuppgiftsansvarig: Andreas Andersson (<a href="mailto:andreas_typhoon@hotmail.com">andreas_typhoon@hotmail.com</a>)</p>
 
-Data controller: Andreas Andersson (andreas_typhoon@hotmail.com)
+  <h2>2. Vilka uppgifter samlar vi in?</h2>
+  <p><strong>Obligatoriska uppgifter:</strong></p>
+  <ul>
+    <li>Profil: namn, e-post, födelsedatum, höger/vänsterhänt</li>
+    <li>Aktiviteter: datum, plats, väder, anteckningar</li>
+    <li>Serier: serienummer, resultat, position, avstånd</li>
+    <li>Skott: träffar, position på tavlan, samlingsdata</li>
+    <li>Vapen: tillverkare, modell, kaliber, licensstatus</li>
+  </ul>
+  <p><strong>Frivilliga uppgifter:</strong></p>
+  <ul>
+    <li>Bilder: vapenfoton, licensdokument</li>
+    <li>Klubbinformation: klubbnamn (om relevant)</li>
+  </ul>
+  <p><strong>Vi samlar INTE in:</strong></p>
+  <ul>
+    <li>GPS- eller platsdata</li>
+    <li>Personnummer</li>
+    <li>Betalningsinformation</li>
+    <li>Sökbeteenden eller beteendedata</li>
+  </ul>
 
-## 2. What data do we collect?
+  <h2>3. Varför samlar vi in uppgifterna?</h2>
+  <p>Dina uppgifter används för att:</p>
+  <ul>
+    <li>Dokumentera din träning och dina aktiviteter</li>
+    <li>Ge dig insikter om dina skytteresultat</li>
+    <li>Följa vapenregistrering och licenser</li>
+    <li>Visa din utveckling över tid</li>
+    <li>Säkerställa att du bara ser dina egna uppgifter</li>
+  </ul>
 
-Required data:
-- Profile: Name, email, date of birth, right/left-handed
-- Activities: Date, location, weather, notes
-- Series: Series number, results, position, distance
-- Shots: Hits, position on target, collection data
-- Weapons: Manufacturer, model, caliber, license status
+  <h2>4. Var lagras dina uppgifter?</h2>
+  <p>Dina uppgifter lagras säkert och krypterat hos Supabase i Stockholm — EU-baserad infrastruktur som uppfyller GDPR. Vi delar inte dina uppgifter med tredje part utan ditt samtycke.</p>
 
-Optional data:
-- Images: Weapon photos, license documents
-- Club information: Club name (if relevant)
+  <h2>5. Dina rättigheter</h2>
+  <p>Du har rätt att:</p>
+  <ul>
+    <li>Exportera dina profiluppgifter</li>
+    <li>Radera ditt konto och all tillhörande data</li>
+    <li>Uppdatera din information</li>
+    <li>Begära tillgång till dina personuppgifter</li>
+  </ul>
+  <p>Observera att radering av konto är oåterkalleligt.</p>
 
-We do NOT collect:
-- GPS/location data
-- Personal identification numbers
-- Payment information
-- Search patterns or behavioral data
+  <h2>6. Datasäkerhet</h2>
+  <p>Vi skyddar dina uppgifter med:</p>
+  <ul>
+    <li>Användarautentisering och åtkomstkontroll</li>
+    <li>Kryptering i lagring och överföring</li>
+    <li>Användarisolering — du ser bara dina egna uppgifter</li>
+    <li>Regelbundna säkerhetskontroller</li>
+  </ul>
+  <p>Vi kan inte garantera 100 % säkerhet, men vi gör vårt yttersta.</p>
 
-## 3. Why do we collect this data?
+  <h2>7. Lagringstid</h2>
+  <p>Vi behåller dina uppgifter så länge som behövs för att tillhandahålla tjänsten. Du kan när som helst radera ditt konto och all tillhörande data. Lagkrav kan innebära att viss data behöver behållas längre.</p>
 
-Your data is used for:
-- Documenting your training and activities
-- Providing insights about your shooting results
-- Tracking weapon registration and licenses
-- Showing your progress over time
-- Ensuring you only see your own data
+  <h2>8. Barn</h2>
+  <p>Scottify är inte avsedd för personer under 13 år. Vi samlar inte medvetet in uppgifter från barn. Om vi upptäcker sådana uppgifter raderas de omedelbart.</p>
 
-## 4. Where is your data stored?
+  <h2>9. GDPR-rättigheter (EU)</h2>
+  <p>Om du befinner dig inom EU har du rätt till:</p>
+  <ul>
+    <li>Tillgång — se vilka uppgifter vi har om dig</li>
+    <li>Rättelse — korrigera felaktiga uppgifter</li>
+    <li>Radering — ta bort ditt konto och all data</li>
+    <li>Dataportabilitet — få ut dina uppgifter i ett portabelt format</li>
+  </ul>
+  <p>Kontakta oss för att utöva dessa rättigheter.</p>
 
-Your data is stored securely on cloud-based servers with:
-- Encrypted storage for sensitive data
-- Automatic backups
-- EU-based infrastructure (GDPR-compliant)
+  <h2>10. Kontakt</h2>
+  <p>Frågor eller synpunkter om integritetspolicyn? Hör av dig till:<br>
+  <a href="mailto:andreas_typhoon@hotmail.com">andreas_typhoon@hotmail.com</a></p>
 
-We do not share your data with third parties without your consent.
+  <h2>11. Ändringar</h2>
+  <p>Vi kan uppdatera denna policy från tid till annan. Vi rekommenderar att du besöker sidan regelbundet. Ändringar träder i kraft omedelbart när de publiceras.</p>
 
-## 5. Your rights
+  <hr class="divider" />
+  <div class="footer">© 2026 Scottify. <a href="support/">Support</a></div>
 
-You have the right to:
-- Export your profile data
-- Delete your account and all associated data
-- Update your information
-- Request access to your personal data
-
-Please note that deleting your account is irreversible.
-
-## 6. Data security
-
-We implement security measures to protect your data:
-- User authentication and access control
-- Data encryption in storage and transmission
-- User isolation (you only see your own data)
-- Regular security checks
-
-We cannot guarantee 100% security, but we do our best.
-
-## 7. Data retention
-
-We retain your data only as long as necessary to provide the service. You can delete your account and all associated data at any time. Legal requirements may require us to retain certain data longer.
-
-## 8. Children's privacy
-
-Tavla is not intended for people under 13 years old. We do not knowingly collect data from children. If we discover data from a child, we delete it immediately.
-
-## 9. GDPR rights (EU)
-
-If you are in the EU, you have the right to:
-- Access: See what data we have about you
-- Correction: Update incorrect data
-- Deletion: Delete your account and all data
-- Data portability: Get your data in a portable format
-
-Contact us to exercise these rights.
-
-## 10. Contact
-
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.
-
-Contact: Andreas Andersson (andreas_typhoon@hotmail.com)
-
-## 11. Changes to this policy
-
-We may update our Privacy Policy from time to time. We advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted.
-
-Last updated: May 2026
+</div>
+</body>
+</html>
