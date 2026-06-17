@@ -1,147 +1,194 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Integritetspolicy</title>
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.65; max-width: 760px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
-    color: #1a1a1a; background: #ffffff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #111; } a { color: #5fb0ff; } }
-  h1 { font-size: 1.9rem; margin-bottom: .25rem; }
-  h2 { font-size: 1.25rem; margin-top: 2.2rem; border-bottom: 1px solid rgba(127,127,127,.25); padding-bottom: .3rem; }
-  h3 { font-size: 1.05rem; margin-top: 1.4rem; }
-  .meta { color: #777; font-size: .95rem; margin-bottom: 1.5rem; }
-  .fill { background: rgba(255,205,0,.18); padding: 0 .25rem; border-radius: 3px; }
-  ul { padding-left: 1.3rem; }
-  li { margin: .35rem 0; }
-  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
-  th, td { text-align: left; border: 1px solid rgba(127,127,127,.3); padding: .5rem .6rem; vertical-align: top; }
-  th { background: rgba(127,127,127,.1); }
-  .note { font-size: .9rem; color: #777; }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scottify – Integritetspolicy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0e1520;
+      color: #e2e8f0;
+      min-height: 100vh;
+      padding: 48px 16px 80px;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .logo {
+      font-size: 26px;
+      font-weight: 800;
+      color: #f8fafc;
+      margin-bottom: 4px;
+    }
+    .tagline {
+      font-size: 14px;
+      color: #64748b;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #f8fafc;
+      margin-bottom: 4px;
+    }
+    .updated {
+      font-size: 13px;
+      color: #475569;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 13px;
+      font-weight: 700;
+      color: #38bdf8;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin: 36px 0 12px;
+    }
+    p {
+      font-size: 15px;
+      color: #cbd5e1;
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+    ul {
+      margin: 8px 0 12px 20px;
+    }
+    ul li {
+      font-size: 15px;
+      color: #cbd5e1;
+      line-height: 1.7;
+      margin-bottom: 4px;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid #1e293b;
+      margin: 40px 0 0;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #475569;
+    }
+    a { color: #38bdf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
+<div class="container">
 
-<h1>Integritetspolicy</h1>
-<p class="meta">
-  Tjänst: Scottify ·
-  Personuppgiftsansvarig: Andreas Andersson, enskild näringsidkare<br>
-  Kontakt: andreas_typhoon@hotmail.com ·
-  Senast uppdaterad: 2026-06-17
-</p>
+  <div class="logo">Scottify</div>
+  <div class="tagline">Träningspartnern för precisionsskytten</div>
 
-<p>
-  Den här policyn beskriver hur Scottify ("appen", "vi", "oss")
-  samlar in, använder, lagrar och delar personuppgifter när du använder appen. Vi värnar om din
-  integritet: vi säljer aldrig dina uppgifter, använder dem inte för annonsering och spårar dig inte
-  mellan appar eller webbplatser.
-</p>
+  <h1>Integritetspolicy</h1>
+  <div class="updated">Senast uppdaterad: 2026-06-17</div>
 
-<h2>1. Vilka uppgifter vi behandlar</h2>
-<p>Vi behandlar bara uppgifter som behövs för att appen ska fungera, och som du själv lägger in eller skapar genom att använda den.</p>
+  <h2>1. Om appen och personuppgiftsansvar</h2>
+  <p>Scottify är en digital träningslogg och analysapp för sportskytte. Vi respekterar din integritet och är transparenta med hur vi hanterar dina uppgifter.</p>
+  <p>Personuppgiftsansvarig: Andreas Andersson (<a href="mailto:andreas_typhoon@hotmail.com">andreas_typhoon@hotmail.com</a>)</p>
 
-<table>
-  <tr><th>Kategori</th><th>Exempel</th><th>Syfte</th></tr>
-  <tr><td>Kontouppgifter</td><td>Namn, e-postadress, telefonnummer</td><td>Skapa och hantera ditt konto, inloggning</td></tr>
-  <tr><td>Hälsa</td><td>Pulsdata från Apple Watch (beta-funktion)</td><td>Visa din puls under skjutning och koppla den till dina serier</td></tr>
-  <tr><td>Träning/rörelse</td><td>Rörelse- och accelerometerdata</td><td>Mäta rekyl och hållning under skjutning</td></tr>
-  <tr><td>Foton</td><td>Bilder du tar med kameran eller väljer från biblioteket</td><td>Spara och analysera träffbilder och vapen</td></tr>
-  <tr><td>Röstinspelningar</td><td>Egna inspelade röstkommandon till skjutledaren</td><td>Spela upp dina egna kommandon i appen</td></tr>
-  <tr><td>Annat användarinnehåll</td><td>Serier, skott, aktiviteter, mål, anteckningar</td><td>Föra din skytteloggbok och visa statistik</td></tr>
-  <tr><td>Identifierare</td><td>Användar-ID (konto), prenumerations-ID</td><td>Koppla data och köp till rätt konto</td></tr>
-  <tr><td>Köp</td><td>Prenumerationsstatus och köphistorik</td><td>Ge tillgång till Pro-funktioner</td></tr>
-  <tr><td>Diagnostik</td><td>Kraschdata och ett installations-ID</td><td>Hitta och åtgärda fel i appen</td></tr>
-  <tr><td>Användningsdata</td><td>App-öppningar, skärmvisningar och händelser i appen (pseudonymt, ej kopplat till ditt konto)</td><td>Förstå hur appen används och förbättra den</td></tr>
-</table>
+  <h2>2. Vilka uppgifter samlar vi in?</h2>
+  <p><strong>Kontouppgifter:</strong></p>
+  <ul>
+    <li>Profil: namn, e-post, ev. telefonnummer, födelsedatum, höger/vänsterhänt</li>
+    <li>Identifierare: användar-ID och prenumerations-ID</li>
+  </ul>
+  <p><strong>Innehåll du skapar i appen:</strong></p>
+  <ul>
+    <li>Aktiviteter: datum, plats, väder, anteckningar</li>
+    <li>Serier: serienummer, resultat, position, avstånd</li>
+    <li>Skott: träffar, position på tavlan, samlingsdata</li>
+    <li>Vapen: tillverkare, modell, kaliber, licensstatus</li>
+    <li>Foton: träffbilder, vapen- och licensbilder (tas med kameran eller väljs från biblioteket)</li>
+    <li>Röstinspelningar: egna röstkommandon till skjutledaren</li>
+    <li>Klubbinformation: klubbnamn (om relevant)</li>
+  </ul>
+  <p><strong>Hälsa och rörelse (valfria funktioner):</strong></p>
+  <ul>
+    <li>Puls: pulsdata från Apple Watch (beta-funktion)</li>
+    <li>Rörelse: rörelse-/accelerometerdata för rekyl och hållning</li>
+  </ul>
+  <p><strong>Köp och teknisk data:</strong></p>
+  <ul>
+    <li>Köp: prenumerationsstatus och köphistorik (via RevenueCat och Apple)</li>
+    <li>Användningsdata: app-öppningar och skärmvisningar (pseudonymt, via Firebase Analytics — ej kopplat till ditt konto)</li>
+    <li>Kraschdata: fel- och kraschrapporter (via Firebase Crashlytics)</li>
+  </ul>
+  <p><strong>Vi samlar INTE in:</strong></p>
+  <ul>
+    <li>GPS- eller platsdata</li>
+    <li>Personnummer</li>
+    <li>Betalkortsuppgifter — betalningen hanteras av Apple, vi ser aldrig ditt kort</li>
+  </ul>
 
-<p>
-  Appen begär behörighet till kamera, bildbibliotek, mikrofon och rörelsesensor. Dessa används bara
-  för funktionerna ovan när du själv väljer att använda dem. Appen samlar inte in din plats, dina
-  kontakter, betalkortsuppgifter eller någon annan data utöver det som anges här.
-</p>
+  <h2>3. Varför samlar vi in uppgifterna?</h2>
+  <p>Dina uppgifter används för att:</p>
+  <ul>
+    <li>Dokumentera din träning och dina aktiviteter</li>
+    <li>Ge dig insikter om dina skytteresultat</li>
+    <li>Följa vapenregistrering och licenser</li>
+    <li>Visa din utveckling över tid</li>
+    <li>Säkerställa att du bara ser dina egna uppgifter</li>
+  </ul>
 
-<h2>2. Rättslig grund (GDPR)</h2>
-<ul>
-  <li><strong>Avtal:</strong> behandling som krävs för att leverera appens funktioner (konto, loggbok, prenumeration).</li>
-  <li><strong>Samtycke:</strong> för känsliga uppgifter, framför allt <strong>hälsodata (puls)</strong>, samt för kamera, mikrofon och rörelse. Du kan när som helst återkalla samtycket genom att sluta använda funktionen och radera datan.</li>
-  <li><strong>Berättigat intresse:</strong> grundläggande kraschdiagnostik för att hålla appen stabil.</li>
-</ul>
+  <h2>4. Var lagras dina uppgifter och vilka delar vi dem med?</h2>
+  <p>Dina uppgifter lagras säkert och krypterat hos Supabase inom EU — infrastruktur som uppfyller GDPR. Vi säljer aldrig dina uppgifter och använder dem inte för reklam.</p>
+  <p>För att driva appen anlitar vi följande leverantörer (personuppgiftsbiträden):</p>
+  <ul>
+    <li>Supabase — databas, fillagring och inloggning (EU)</li>
+    <li>Google — "Logga in med Google" samt Firebase Crashlytics (kraschrapporter) och Firebase Analytics (pseudonym användningsstatistik)</li>
+    <li>RevenueCat och Apple — hantering av prenumerationer och köp</li>
+  </ul>
+  <p>Känsliga uppgifter, framför allt pulsdata, behandlas endast med ditt samtycke. Du kan när som helst sluta använda funktionen och radera datan.</p>
 
-<h2>3. Var dina uppgifter lagras</h2>
-<p>
-  Dina uppgifter lagras hos vår databas- och lagringsleverantör <strong>Supabase</strong>, med servrar
-  inom <strong>EU</strong>. Överföring sker krypterat (HTTPS/TLS).
-</p>
+  <h2>5. Dina rättigheter</h2>
+  <p>Du har rätt att:</p>
+  <ul>
+    <li>Exportera dina uppgifter och bilder</li>
+    <li>Radera ditt konto och all tillhörande data</li>
+    <li>Uppdatera din information</li>
+    <li>Begära tillgång till dina personuppgifter</li>
+  </ul>
+  <p>Observera att radering av konto är oåterkalleligt.</p>
 
-<h2>4. Tredjeparter vi delar uppgifter med</h2>
-<p>Vi delar uppgifter med följande leverantörer (personuppgiftsbiträden), enbart för att driva appen — aldrig för annonsering eller försäljning:</p>
-<table>
-  <tr><th>Leverantör</th><th>Ändamål</th><th>Uppgifter</th></tr>
-  <tr><td>Supabase</td><td>Databas, fillagring, autentisering</td><td>Allt konto- och användarinnehåll ovan</td></tr>
-  <tr><td>Google (Logga in med Google)</td><td>Inloggning</td><td>Namn, e-postadress</td></tr>
-  <tr><td>RevenueCat</td><td>Hantering av prenumerationer</td><td>Användar-ID, köp-/prenumerationsstatus</td></tr>
-  <tr><td>Apple (App Store)</td><td>Betalning och köp i appen</td><td>Köp hanteras av Apple; vi ser aldrig dina betalkortsuppgifter</td></tr>
-  <tr><td>Firebase Crashlytics (Google)</td><td>Kraschrapportering</td><td>Kraschdata, installations-ID, enhetsinformation</td></tr>
-  <tr><td>Firebase Analytics (Google)</td><td>Användningsstatistik</td><td>Pseudonym statistik om app-användning (ej kopplad till ditt konto)</td></tr>
-</table>
+  <h2>6. Datasäkerhet</h2>
+  <p>Vi skyddar dina uppgifter med:</p>
+  <ul>
+    <li>Användarautentisering och åtkomstkontroll</li>
+    <li>Kryptering i lagring och överföring</li>
+    <li>Användarisolering — du ser bara dina egna uppgifter</li>
+    <li>Regelbundna säkerhetskontroller</li>
+  </ul>
+  <p>Vi kan inte garantera 100 % säkerhet, men vi gör vårt yttersta.</p>
 
-<h2>5. Hur länge vi sparar uppgifter</h2>
-<p>
-  Vi sparar dina uppgifter så länge ditt konto är aktivt. Efter att en eventuell testperiod tagit slut
-  behålls din data låst bakom prenumeration så att du kan återuppta den. Om kontot är
-  <strong>inaktivt i 6 månader</strong> raderas din data automatiskt. Du kan när som helst exportera eller
-  radera din data själv (se nedan).
-</p>
+  <h2>7. Lagringstid</h2>
+  <p>Vi behåller dina uppgifter så länge ditt konto är aktivt. Efter att en eventuell testperiod tagit slut behålls din data låst bakom prenumeration så att du kan återuppta den. Om kontot är inaktivt i 6 månader raderas din data automatiskt. Du kan när som helst exportera eller radera din data själv. Lagkrav kan innebära att viss data behöver behållas längre.</p>
 
-<h2>6. Dina rättigheter</h2>
-<p>Enligt GDPR har du rätt att:</p>
-<ul>
-  <li>få tillgång till och en kopia av dina uppgifter (export finns i appen),</li>
-  <li>rätta felaktiga uppgifter,</li>
-  <li>radera dina uppgifter ("rätten att bli bortglömd") — kontoradering finns i appen,</li>
-  <li>begränsa eller invända mot behandling,</li>
-  <li>flytta dina uppgifter (dataportabilitet),</li>
-  <li>återkalla samtycke när som helst.</li>
-</ul>
-<p>
-  Kontakta oss på andreas_typhoon@hotmail.com för att utöva dina rättigheter. Du har också
-  rätt att lämna klagomål till tillsynsmyndigheten Integritetsskyddsmyndigheten (IMY), imy.se.
-</p>
+  <h2>8. Barn</h2>
+  <p>Scottify är inte avsedd för personer under 13 år. Vi samlar inte medvetet in uppgifter från barn. Om vi upptäcker sådana uppgifter raderas de omedelbart.</p>
 
-<h2>7. Barn</h2>
-<p>
-  Appen är inte riktad till barn och vi samlar inte medvetet in uppgifter från barn under
-  13 år. Om du tror att ett barn lämnat uppgifter till oss, kontakta oss så raderar vi dem.
-</p>
+  <h2>9. GDPR-rättigheter (EU)</h2>
+  <p>Om du befinner dig inom EU har du rätt till:</p>
+  <ul>
+    <li>Tillgång — se vilka uppgifter vi har om dig</li>
+    <li>Rättelse — korrigera felaktiga uppgifter</li>
+    <li>Radering — ta bort ditt konto och all data</li>
+    <li>Dataportabilitet — få ut dina uppgifter i ett portabelt format</li>
+  </ul>
+  <p>Kontakta oss för att utöva dessa rättigheter.</p>
 
-<h2>8. Säkerhet</h2>
-<p>
-  Vi skyddar dina uppgifter med kryptering under överföring, åtkomstkontroller och behörighetsregler
-  som gör att du bara kommer åt din egen data. Ingen metod är helt riskfri, men vi arbetar för att
-  hålla en hög skyddsnivå.
-</p>
+  <h2>10. Kontakt</h2>
+  <p>Frågor eller synpunkter om integritetspolicyn? Hör av dig till:<br>
+  <a href="mailto:andreas_typhoon@hotmail.com">andreas_typhoon@hotmail.com</a></p>
 
-<h2>9. Ändringar i policyn</h2>
-<p>
-  Vi kan uppdatera den här policyn. Vid väsentliga ändringar informerar vi i appen eller via e-post.
-  Datumet högst upp visar när policyn senast ändrades.
-</p>
+  <h2>11. Ändringar</h2>
+  <p>Vi kan uppdatera denna policy från tid till annan. Vi rekommenderar att du besöker sidan regelbundet. Ändringar träder i kraft omedelbart när de publiceras.</p>
 
-<h2>10. Kontakt</h2>
-<p>
-  Personuppgiftsansvarig: Andreas Andersson, enskild näringsidkare<br>
-  E-post: andreas_typhoon@hotmail.com
-</p>
+  <hr class="divider" />
+  <div class="footer">© 2026 Scottify. <a href="support/">Support</a></div>
 
-<p class="note">
-  Markerade fält måste fyllas i innan publicering. Detta är ett utkast/mall — låt gärna någon med
-  juridisk kompetens granska den innan du publicerar och lämnar in appen.
-</p>
-
+</div>
 </body>
 </html>
