@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Integritetspolicy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; max-width: 760px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+    color: #1a1a1a; background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #111; } a { color: #5fb0ff; } }
+  h1 { font-size: 1.9rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.2rem; border-bottom: 1px solid rgba(127,127,127,.25); padding-bottom: .3rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.4rem; }
+  .meta { color: #777; font-size: .95rem; margin-bottom: 1.5rem; }
+  .fill { background: rgba(255,205,0,.18); padding: 0 .25rem; border-radius: 3px; }
+  ul { padding-left: 1.3rem; }
+  li { margin: .35rem 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+  th, td { text-align: left; border: 1px solid rgba(127,127,127,.3); padding: .5rem .6rem; vertical-align: top; }
+  th { background: rgba(127,127,127,.1); }
+  .note { font-size: .9rem; color: #777; }
+</style>
+</head>
+<body>
+
+<h1>Integritetspolicy</h1>
+<p class="meta">
+  Tjänst: <span class="fill">[APPENS NAMN]</span> ·
+  Personuppgiftsansvarig: <span class="fill">[FÖRETAG / ENSKILD FIRMA, ORG.NR]</span><br>
+  Kontakt: <span class="fill">[KONTAKT-E-POST]</span> ·
+  Senast uppdaterad: <span class="fill">[ÅÅÅÅ-MM-DD]</span>
+</p>
+
+<p>
+  Den här policyn beskriver hur <span class="fill">[APPENS NAMN]</span> ("appen", "vi", "oss")
+  samlar in, använder, lagrar och delar personuppgifter när du använder appen. Vi värnar om din
+  integritet: vi säljer aldrig dina uppgifter, använder dem inte för annonsering och spårar dig inte
+  mellan appar eller webbplatser.
+</p>
+
+<h2>1. Vilka uppgifter vi behandlar</h2>
+<p>Vi behandlar bara uppgifter som behövs för att appen ska fungera, och som du själv lägger in eller skapar genom att använda den.</p>
+
+<table>
+  <tr><th>Kategori</th><th>Exempel</th><th>Syfte</th></tr>
+  <tr><td>Kontouppgifter</td><td>Namn, e-postadress, telefonnummer</td><td>Skapa och hantera ditt konto, inloggning</td></tr>
+  <tr><td>Hälsa</td><td>Pulsdata från Apple Watch (beta-funktion)</td><td>Visa din puls under skjutning och koppla den till dina serier</td></tr>
+  <tr><td>Träning/rörelse</td><td>Rörelse- och accelerometerdata</td><td>Mäta rekyl och hållning under skjutning</td></tr>
+  <tr><td>Foton</td><td>Bilder du tar med kameran eller väljer från biblioteket</td><td>Spara och analysera träffbilder och vapen</td></tr>
+  <tr><td>Röstinspelningar</td><td>Egna inspelade röstkommandon till skjutledaren</td><td>Spela upp dina egna kommandon i appen</td></tr>
+  <tr><td>Annat användarinnehåll</td><td>Serier, skott, aktiviteter, mål, anteckningar</td><td>Föra din skytteloggbok och visa statistik</td></tr>
+  <tr><td>Identifierare</td><td>Användar-ID (konto), prenumerations-ID</td><td>Koppla data och köp till rätt konto</td></tr>
+  <tr><td>Köp</td><td>Prenumerationsstatus och köphistorik</td><td>Ge tillgång till Pro-funktioner</td></tr>
+  <tr><td>Diagnostik</td><td>Kraschdata och ett installations-ID</td><td>Hitta och åtgärda fel i appen</td></tr>
+</table>
+
+<p>
+  Appen begär behörighet till kamera, bildbibliotek, mikrofon och rörelsesensor. Dessa används bara
+  för funktionerna ovan när du själv väljer att använda dem. Appen samlar inte in din plats, dina
+  kontakter, betalkortsuppgifter eller någon annan data utöver det som anges här.
+</p>
+
+<h2>2. Rättslig grund (GDPR)</h2>
+<ul>
+  <li><strong>Avtal:</strong> behandling som krävs för att leverera appens funktioner (konto, loggbok, prenumeration).</li>
+  <li><strong>Samtycke:</strong> för känsliga uppgifter, framför allt <strong>hälsodata (puls)</strong>, samt för kamera, mikrofon och rörelse. Du kan när som helst återkalla samtycket genom att sluta använda funktionen och radera datan.</li>
+  <li><strong>Berättigat intresse:</strong> grundläggande kraschdiagnostik för att hålla appen stabil.</li>
+</ul>
+
+<h2>3. Var dina uppgifter lagras</h2>
+<p>
+  Dina uppgifter lagras hos vår databas- och lagringsleverantör <strong>Supabase</strong>, med servrar
+  inom <strong>EU</strong>. Överföring sker krypterat (HTTPS/TLS).
+</p>
+
+<h2>4. Tredjeparter vi delar uppgifter med</h2>
+<p>Vi delar uppgifter med följande leverantörer (personuppgiftsbiträden), enbart för att driva appen — aldrig för annonsering eller försäljning:</p>
+<table>
+  <tr><th>Leverantör</th><th>Ändamål</th><th>Uppgifter</th></tr>
+  <tr><td>Supabase</td><td>Databas, fillagring, autentisering</td><td>Allt konto- och användarinnehåll ovan</td></tr>
+  <tr><td>Google (Logga in med Google)</td><td>Inloggning</td><td>Namn, e-postadress</td></tr>
+  <tr><td>RevenueCat</td><td>Hantering av prenumerationer</td><td>Användar-ID, köp-/prenumerationsstatus</td></tr>
+  <tr><td>Apple (App Store)</td><td>Betalning och köp i appen</td><td>Köp hanteras av Apple; vi ser aldrig dina betalkortsuppgifter</td></tr>
+  <tr><td>Firebase Crashlytics (Google)</td><td>Kraschrapportering</td><td>Kraschdata, installations-ID, enhetsinformation</td></tr>
+</table>
+
+<h2>5. Hur länge vi sparar uppgifter</h2>
+<p>
+  Vi sparar dina uppgifter så länge ditt konto är aktivt. Efter att en eventuell testperiod tagit slut
+  behålls din data låst bakom prenumeration så att du kan återuppta den. Om kontot är
+  <strong>inaktivt i 6 månader</strong> raderas din data automatiskt. Du kan när som helst exportera eller
+  radera din data själv (se nedan).
+</p>
+
+<h2>6. Dina rättigheter</h2>
+<p>Enligt GDPR har du rätt att:</p>
+<ul>
+  <li>få tillgång till och en kopia av dina uppgifter (export finns i appen),</li>
+  <li>rätta felaktiga uppgifter,</li>
+  <li>radera dina uppgifter ("rätten att bli bortglömd") — kontoradering finns i appen,</li>
+  <li>begränsa eller invända mot behandling,</li>
+  <li>flytta dina uppgifter (dataportabilitet),</li>
+  <li>återkalla samtycke när som helst.</li>
+</ul>
+<p>
+  Kontakta oss på <span class="fill">[KONTAKT-E-POST]</span> för att utöva dina rättigheter. Du har också
+  rätt att lämna klagomål till tillsynsmyndigheten Integritetsskyddsmyndigheten (IMY), imy.se.
+</p>
+
+<h2>7. Barn</h2>
+<p>
+  Appen är inte riktad till barn och vi samlar inte medvetet in uppgifter från barn under
+  <span class="fill">[13/16]</span> år. Om du tror att ett barn lämnat uppgifter till oss, kontakta oss så raderar vi dem.
+</p>
+
+<h2>8. Säkerhet</h2>
+<p>
+  Vi skyddar dina uppgifter med kryptering under överföring, åtkomstkontroller och behörighetsregler
+  som gör att du bara kommer åt din egen data. Ingen metod är helt riskfri, men vi arbetar för att
+  hålla en hög skyddsnivå.
+</p>
+
+<h2>9. Ändringar i policyn</h2>
+<p>
+  Vi kan uppdatera den här policyn. Vid väsentliga ändringar informerar vi i appen eller via e-post.
+  Datumet högst upp visar när policyn senast ändrades.
+</p>
+
+<h2>10. Kontakt</h2>
+<p>
+  Personuppgiftsansvarig: <span class="fill">[FÖRETAG / ENSKILD FIRMA, ORG.NR]</span><br>
+  E-post: <span class="fill">[KONTAKT-E-POST]</span>
+</p>
+
+<p class="note">
+  Markerade fält måste fyllas i innan publicering. Detta är ett utkast/mall — låt gärna någon med
+  juridisk kompetens granska den innan du publicerar och lämnar in appen.
+</p>
+
+</body>
+</html>
